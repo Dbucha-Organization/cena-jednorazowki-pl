@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -12,6 +12,340 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
 <link rel="manifest" href="site.webmanifest" />
+    <!-- TODO: Add Product Offer price and availability only when real prices and stock status are available on the site. -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "OnlineStore",
+                    "@id": "https://xn--cena-jednorazwki-ivb.pl/#organization",
+                    "name": "Cena-Jednorazówki.pl",
+                    "url": "https://xn--cena-jednorazwki-ivb.pl/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://xn--cena-jednorazwki-ivb.pl/web-app-manifest-512x512.png"
+                    },
+                    "contactPoint": [
+                        {
+                            "@type": "ContactPoint",
+                            "telephone": "+48 573 581 194",
+                            "email": "info@dbucha.com",
+                            "contactType": "customer service",
+                            "areaServed": "PL",
+                            "availableLanguage": [
+                                "pl"
+                            ]
+                        }
+                    ],
+                    "sameAs": [
+                        "https://www.instagram.com/dbucha.com_sklep/",
+                        "https://www.facebook.com/profile.php?id=61578129732195",
+                        "https://www.tiktok.com/@dbucha.com"
+                    ],
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "Polska"
+                    },
+                    "availableLanguage": [
+                        "pl"
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://xn--cena-jednorazwki-ivb.pl/#website",
+                    "name": "Cena-Jednorazówki.pl",
+                    "url": "https://xn--cena-jednorazwki-ivb.pl/",
+                    "publisher": {
+                        "@id": "https://xn--cena-jednorazwki-ivb.pl/#organization"
+                    },
+                    "inLanguage": "pl-PL"
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://xn--cena-jednorazwki-ivb.pl/#breadcrumbs",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Strona Główna",
+                            "item": "https://xn--cena-jednorazwki-ivb.pl/"
+                        }
+                    ]
+                },
+                {
+                    "@type": "CollectionPage",
+                    "@id": "https://xn--cena-jednorazwki-ivb.pl/#collection",
+                    "url": "https://xn--cena-jednorazwki-ivb.pl/",
+                    "name": "Jednorazówki - Cena-Jednorazówki.pl",
+                    "description": "Lista produktów typu e papieros jednorazowy dostępnych w sklepie Cena-Jednorazówki.pl.",
+                    "isPartOf": {
+                        "@id": "https://xn--cena-jednorazwki-ivb.pl/#website"
+                    },
+                    "about": {
+                        "@type": "Thing",
+                        "name": "e papierosy jednorazowe"
+                    },
+                    "breadcrumb": {
+                        "@id": "https://xn--cena-jednorazwki-ivb.pl/#breadcrumbs"
+                    },
+                    "mainEntity": {
+                        "@id": "https://xn--cena-jednorazwki-ivb.pl/#itemlist"
+                    },
+                    "inLanguage": "pl-PL"
+                },
+                {
+                    "@type": "ItemList",
+                    "@id": "https://xn--cena-jednorazwki-ivb.pl/#itemlist",
+                    "name": "Polecane jednorazówki i e papierosy jednorazowe",
+                    "itemListOrder": "https://schema.org/ItemListOrderAscending",
+                    "numberOfItems": 15,
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy MerryMi MechaPro 35000",
+                                "alternateName": "MerryMi MechaPro 35000",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/MerryMi_MechaPro_35K_products.jpg",
+                                "url": "https://www.dbucha.com/products/merrymi-mecha-pro-35k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "MerryMi"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "item": {
+                                "@type": "Product",
+                                "name": "Jednorazówka JNR Falcon Bar 48000",
+                                "alternateName": "JNR Falcon Bar 48000",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/JNR_Falcon%20Bar_48K_products.jpg",
+                                "url": "https://www.dbucha.com/products/jednorazowki-jnr-falcon-bar-48k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 3,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy Fumot Tornado 30000",
+                                "alternateName": "Fumot Tornado 30000",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/Fumot_Tornado_30K_products.jpg",
+                                "url": "https://www.dbucha.com/products/fumot-tornado-30k-music-30k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Fumot"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 4,
+                            "item": {
+                                "@type": "Product",
+                                "name": "Jednorazówka Blur 20000",
+                                "alternateName": "Blur 20000",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/Blur_20K_products.jpg",
+                                "url": "https://www.dbucha.com/products/blur-20000-20k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Blur"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 5,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy MerryMi Blade 30000",
+                                "alternateName": "MerryMi Blade 30000",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/MerryMi-Blade30K_products.jpg",
+                                "url": "https://www.dbucha.com/products/merrymi-blade-30k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "MerryMi"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 6,
+                            "item": {
+                                "@type": "Product",
+                                "name": "Jednorazówka Hayati Pro 15000",
+                                "alternateName": "Hayati Pro 15000",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/Hayati_pro15K.jpg",
+                                "url": "https://www.dbucha.com/products/hayati-pro-ultra-0-15k-15000-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Hayati"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 7,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy MerryMI Mecha 16K",
+                                "alternateName": "MerryMI Mecha 16K",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/MerryMI_M-Mecha16K_products.jpg",
+                                "url": "https://www.dbucha.com/products/merrymi-m-mecha-16k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "MerryMi"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 8,
+                            "item": {
+                                "@type": "Product",
+                                "name": "Jednorazówka MerryMi PandaX 40K",
+                                "alternateName": "MerryMi PandaX 40K",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/MerryMi_PandaX_40K_products.jpg",
+                                "url": "https://www.dbucha.com/products/jednorazowki-merrymi-panda-x-40k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "MerryMi"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 9,
+                            "item": {
+                                "@type": "Product",
+                                "name": "Jednorazówka JNR MegaBox 50K",
+                                "alternateName": "JNR MegaBox 50K",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/JNR_MegaBox_50K_products.jpg",
+                                "url": "https://www.dbucha.com/products/jednorazowki-jnr-megabox-pro-50k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 10,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy Fumot Tornado 25K",
+                                "alternateName": "Fumot Tornado 25K",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/Fumot_Tornado_25K_products.jpg",
+                                "url": "https://www.dbucha.com/products/fumot-tornado-25k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Fumot"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 11,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy Fumot Digital Monkey 40K",
+                                "alternateName": "Fumot Digital Monkey 40K",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/Fumot_Digital-Monkey_40K_products.jpg",
+                                "url": "https://www.dbucha.com/products/fumot-digital-monkey-40k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Fumot"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 12,
+                            "item": {
+                                "@type": "Product",
+                                "name": "Jednorazówka Adalya ADL 16K",
+                                "alternateName": "Adalya ADL 16K",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/Adalya_ADL16000_16K_products.jpg",
+                                "url": "https://www.dbucha.com/products/adalya-adl-16000-16k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Adalya"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 13,
+                            "item": {
+                                "@type": "Product",
+                                "name": "Jednorazówka Adalya Aurora 40K",
+                                "alternateName": "Adalya Aurora 40K",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/Adalya_AURORA_40K_products.jpg",
+                                "url": "https://www.dbucha.com/products/adalya-aurora-40k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Adalya"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 14,
+                            "item": {
+                                "@type": "Product",
+                                "name": "Jednorazówka Al Facker Crown Bar 25K",
+                                "alternateName": "Al Facker Crown Bar 25K",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/Al%20Fakher_Crown-Bar_25K_products.jpg",
+                                "url": "https://www.dbucha.com/products/al-fakher-crown-bar-ultra-25k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Al Facker"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 15,
+                            "item": {
+                                "@type": "Product",
+                                "name": "Jednorazówka Al Facker Crown Bar 15K",
+                                "alternateName": "Al Facker Crown Bar 15K",
+                                "image": "https://xn--cena-jednorazwki-ivb.pl/img/Al%20Facker_CROWN-BAR_15K_products.jpg",
+                                "url": "https://www.dbucha.com/products/al-fakher-hypermax-15k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Al Facker"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    </script>
     <link rel="stylesheet" href="style.css">
 
 </head>
